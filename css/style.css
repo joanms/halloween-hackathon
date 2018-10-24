@@ -128,11 +128,11 @@ section h2 {
 
 #mainNav .navbar-nav {
     margin-top: 1rem;
-    letter-spacing: .0625rem
+    letter-spacing: .0625rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #fff
+    color: #fff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -140,16 +140,16 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus {
-    color: #fff
+    color: #fff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18bc9c
+    color: #18bc9c;
 }
 
 #mainNav .navbar-toggler {
     font-size: 80%;
-    padding: .8rem
+    padding: .8rem;
 }
 
 @media (min-width: 992px) {
