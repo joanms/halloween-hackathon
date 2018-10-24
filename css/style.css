@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Creepster');
+
+/*Colours:
+#EA202C Red
+#950E17 Burgundy
+#34090C Dark brown*/
+
+.main-container {
+    height: 100vh;
+    width: auto;
+    background: url('https://odysseyonline-img.rbl.ms/simage/https%3A%2F%2Faz616578.vo.msecnd.net%2Ffiles%2F2016%2F10%2F21%2F636126076151089227-991586613_Halloween%2520Songs.jpg/2000%2C2000/i8EiO4qoC2jGcgLV/img.jpg') no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+hr-blocker {
+    width: 25%;
+    height: 8px;
+    background-color: black;
+}
+
+.second-container {
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
