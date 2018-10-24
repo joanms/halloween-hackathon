@@ -5,8 +5,6 @@
 #950E17 Burgundy
 #34090C Dark brown*/
 
-    background: url('') no-repeat center center fixed;;
-
 
 /*!
  * Start Bootstrap - Freelancer v5.0.0 (https://startbootstrap.com/template-overviews/freelancer)
@@ -17,9 +15,15 @@ body {
     font-family: "Arvo", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
     font-weight: 700;
     font-family: "Creepster", cursive;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: "Creepster", cursive;
+    color: #34090C;
 }
 
 hr.star-dark,hr.star-light {
@@ -42,74 +46,80 @@ hr.star-dark:after,hr.star-light:after {
     content: '\f005';
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 2em
+    font-size: 2em;
 }
 
 hr.star-light {
-    border-color: #fff
+    border-color: #fff;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c
+    background-color: #18bc9c;
 }
 
 hr.star-dark {
-    border-color: #2c3e50
+    border-color: #2c3e50;
 }
 
 hr.star-dark:after {
     color: #2c3e50;
-    background-color: #fff
+    background-color: #fff;
 }
 
 section {
-    padding: 6rem 0
+    padding: 6rem 0;
 }
 
 section h2 {
     font-size: 2.25rem;
-    line-height: 2rem
+    line-height: 2rem;
+}
+
+.lead {
+    font-family: "Arvo", sans-serif;
+    color: #34090C;
 }
 
 @media (min-width: 992px) {
     section h2 {
         font-size:3rem;
-        line-height: 2.5rem
+        line-height: 2.5rem;
     }
 }
 
 .btn-xl {
     padding: 1rem 1.75rem;
-    font-size: 1.25rem
+    font-size: 1.25rem;
 }
 
 .btn-social {
     width: 3.25rem;
     height: 3.25rem;
     font-size: 1.25rem;
-    line-height: 2rem
+    line-height: 2rem;
 }
 
 .scroll-to-top {
     z-index: 1042;
     right: 1rem;
     bottom: 1rem;
-    display: none
+    display: none;
 }
 
 .scroll-to-top a {
     width: 3.5rem;
     height: 3.5rem;
     background-color: rgba(33,37,41,.5);
-    line-height: 3.1rem
+    line-height: 3.1rem;
 }
 
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 700;
-    font-family: Montserrat
+    font-family: Montserrat;
+    background-color: #EA202C!important;
 }
 
 #mainNav .navbar-brand {
@@ -144,10 +154,11 @@ section h2 {
 
 @media (min-width: 992px) {
     #mainNav {
-        padding-top:1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         -webkit-transition: padding-top .3s,padding-bottom .3s;
-        transition: padding-top .3s,padding-bottom .3s
+        transition: padding-top .3s,padding-bottom .3s;
+        background-color: #950E17!important;
     }
 
     #mainNav .navbar-brand {
@@ -157,7 +168,8 @@ section h2 {
     }
 
     #mainNav .navbar-nav {
-        margin-top: 0
+        margin-top: 0;
+        color: #34090C!important;
     }
 
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
@@ -359,11 +371,11 @@ a:active,a:focus,a:hover {
 }
 
 .bg-primary {
-    background-color: #EA202C;
+    background-color: #EA202C !important;
 }
 
 .bg-secondary {
-    background-color: #2c3e50!important;
+    background-color: #34090C !important;
 }
 
 .text-primary {
