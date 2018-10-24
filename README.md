@@ -1,5 +1,5 @@
 # Enchanted Skeleton
-This is a website for a band named Enchanted Skeleton.
+This is a website for a band named Enchanted Skeleton, created as a team effort for a Halloween Hackathon.
 
 # Design
 The wireframes for the site can be viewed [here](https://balsamiq.cloud/seqinpb/poikplj).
